@@ -234,7 +234,3 @@ Le user "Stephane" possède maintenant **3 policies** :
 | **Principe du moindre privilège** | IAMReadOnlyAccess au lieu d'AdministratorAccess quand possible |
 | **Tester les permissions**        | Vérifier immédiatement après modification (refresh de la page) |
 | **Visual Editor**                 | Utiliser l'éditeur visuel pour éviter les erreurs JSON         |
-
----
-
-**Prochaine étape** : Découvrir les autres mécanismes de sécurité IAM (MFA, Password Policy, etc.)
