@@ -275,3 +275,8 @@ RACK A (Partition 1) tombe ⚡❌
 ├─ Instances 1 et 2 : ❌ DOWN
 └─ Instances 3, 4, 5, 6 : ✅ UP (4/6 survivent)
 ```
+
+Dans la console AWS, on va pouvoir créer des plcement groups et choisir la stratégie qui correspond à notre besoin.
+Dans le menu de lancement d'une instance EC2, on peut ensuite choisir de lancer l'instance dans un placement group existant ou d'en créer un nouveau.
+
+On va alors lors de la création d'une instance EC2 pouvoir choisir le placement group et la stratégie souhaitée (Cluster, Spread ou Partition) en fonction de nos besoins en termes de performance, d'isolation et de scalabilité.
